@@ -1,25 +1,19 @@
 package com.example.myapplication
-import ExperimentalMaterialApi
 import android.content.ContentResolver
-import android.content.Intent
-import android.database.Cursor
 import android.net.Uri
 import android.os.Bundle
-import android.provider.OpenableColumns
-import android.util.Pair
 import android.widget.Toast
 import androidx.activity.compose.setContent
 import androidx.appcompat.app.AppCompatActivity
-import androidx.compose.foundation.layout.*
-import androidx.compose.material.*
+import androidx.compose.foundation.layout.padding
+import androidx.compose.material.ExperimentalMaterialApi
 import androidx.compose.material3.Button
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
-import androidx.compose.runtime.*
+import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount
@@ -34,11 +28,9 @@ import com.google.api.client.json.gson.GsonFactory
 import com.google.api.services.drive.Drive
 import com.google.api.services.drive.DriveScopes
 import com.google.api.services.drive.model.File
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.launch
 import java.io.BufferedReader
 import java.io.InputStreamReader
-import java.util.*
+import java.util.Collections
 import java.util.concurrent.Executors
 
 class MainActivity : AppCompatActivity() {
@@ -52,6 +44,7 @@ class MainActivity : AppCompatActivity() {
         }
         requestSignIn()
     }
+
 
     private fun requestSignIn() {
         val clientId = "865701038288-7s9ri2j341h5htkafc29556gg2p73sd3.apps.googleusercontent.com"
