@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:298694915025:android:2bb587f67b3c7276dda6f0",
         "android_client_info": {
-          "package_name": "com.databackup.app"
+          "package_name": "com.example.myapplication"
         }
       },
       "oauth_client": [],
