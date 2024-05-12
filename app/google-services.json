@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "298694915025",
+    "project_id": "data-backup-application",
+    "storage_bucket": "data-backup-application.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298694915025:android:2bb587f67b3c7276dda6f0",
+        "android_client_info": {
+          "package_name": "com.databackup.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeCC4joHzno3Hc0CYIEIrto_dj-bYbQs0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
